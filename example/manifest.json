@@ -1,0 +1,31 @@
+{
+  "manifest_version": 2,
+  "content_scripts": [
+    {
+      "exclude_globs": [],
+      "include_globs": [
+        "*"
+      ],
+      "js": [
+        "dist/inject.js"
+      ],
+      "matches": [
+        "https://*.slack.com/messages/*",
+        "http://*.slack.com/messages/*"
+      ],
+      "run_at": "document_end"
+    }
+  ],
+  "web_accessible_resources": [
+    "dist/bundle.js"
+  ],
+  "converted_from_user_script": true,
+  "description": "Invisible Technologies",
+  "name": "Invisible Technologies",
+  "version": "1.0.0",
+  "icons": {
+    "16": "img/icon16.png",
+    "48": "img/icon48.png",
+    "128": "img/icon128.png"
+  }
+}
