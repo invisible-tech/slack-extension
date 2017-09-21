@@ -1,0 +1,42 @@
+{
+  "name": "@invisible/slack-browser-api",
+  "license": "MIT",
+  "version": "1.0.0",
+  "description": "Access Slack API from the Browser -- Useful for creating Browser Extensions.",
+  "engines": {
+    "node": "^8.4.0"
+  },
+  "homepage": "",
+  "author": {
+    "email": "tng@invisible.email",
+    "name": "Invisible Technologies",
+    "url": "https://github.com/invisible-tech"
+  },
+  "files": [
+    "lib"
+  ],
+  "main": "lib/index.js",
+  "keywords": [
+    "slack",
+    "browser",
+    "extension",
+    "api"
+  ],
+  "devDependencies": {
+    "eslint": "^4.6.1",
+    "eslint-config-airbnb": "^15.1.0",
+    "eslint-formatter-list": "^1.0.0",
+    "eslint-formatter-pretty": "^1.3.0",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-jsx-a11y": "^6.0.2",
+    "eslint-plugin-lodash-fp": "^2.1.3",
+    "eslint-plugin-promise": "^3.5.0",
+    "eslint-plugin-react": "^7.3.0"
+  },
+  "repository": "git@github.com:invisible-tech/slack-browser-api.git",
+  "scripts": {
+    "lint": "eslint --cache -f node_modules/eslint-formatter-pretty --ignore-path .gitignore .",
+    "test": "npm run lint"
+  },
+  "dependencies": {}
+}

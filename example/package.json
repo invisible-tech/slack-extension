@@ -1,0 +1,13 @@
+{
+  "scripts": {
+    "prebuild": "rm -f extension.zip",
+    "build": "browserify src/index.js -o dist/bundle.js",
+    "postbuild": "zip extension.zip img/icon*.png dist/inject.js dist/bundle.js manifest.json",
+    "dev": "nodemon ./node_modules/.bin/browserify src/index.js -o dist/bundle.js"
+  },
+  "dependencies": {
+    "@invisible/slack-browser-api": "^1.0.0",
+    "browserify": "^14.4.0",
+    "nodemon": "^1.12.1"
+  }
+}
