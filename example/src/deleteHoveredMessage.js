@@ -2,7 +2,7 @@
 
 /* eslint no-console:0 */
 
-const api = require('../../lib')
+const api = require('@invisible/slack-browser-api')
 
 const deleteHoveredMessage = () => {
   const el = document.querySelector('ts-message:hover')
