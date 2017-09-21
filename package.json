@@ -1,5 +1,5 @@
 {
-  "name": "slack-browser-api",
+  "name": "@invisible/slack-browser-api",
   "license": "MIT",
   "version": "1.0.0",
   "description": "Access Slack API from the Browser -- Useful for creating Browser Extensions.",
