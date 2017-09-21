@@ -1,8 +1,6 @@
 'use strict'
 
-/* eslint no-console:0 */
-
-const api = require('@invisible/slack-browser-api')
+const api = require('@invisible/slack-browser-api') // eslint-disable-line import/no-unresolved
 
 const deleteHoveredMessage = () => {
   const el = document.querySelector('ts-message:hover')
@@ -11,7 +9,7 @@ const deleteHoveredMessage = () => {
   const ts = el.getAttribute('data-ts')
   const channel = el.getAttribute('data-model-ob-id')
   el.parentNode.removeChild(el)
-  api('chat.delete', { channel, ts }).catch(console.error)
+  api('chat.delete', { channel, ts }).catch(console.error) // eslint-disable-line no-console
 }
 
 const shouldDelete = e => e.ctrlKey && e.shiftKey && e.code === 'Space'
