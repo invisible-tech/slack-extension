@@ -2,6 +2,18 @@
 # yarn lockfile v1
 
 
+"@invisible/eslint-config@^1.0.0":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@invisible/eslint-config/-/eslint-config-1.0.0.tgz#526b6654f40386665cc9561144f8d5ee0cd0a882"
+  dependencies:
+    eslint-config-airbnb "^15.1.0"
+    eslint-formatter-pretty "^1.3.0"
+    eslint-plugin-import "^2.7.0"
+    eslint-plugin-jsx-a11y "^6.0.2"
+    eslint-plugin-lodash-fp "^2.1.3"
+    eslint-plugin-promise "^3.5.0"
+    eslint-plugin-react "^7.3.0"
+
 acorn-jsx@^3.0.0:
   version "3.0.1"
   resolved "https://registry.yarnpkg.com/acorn-jsx/-/acorn-jsx-3.0.1.tgz#afdf9488fb1ecefc8348f6fb22f464e32a58b36b"
@@ -341,10 +353,6 @@ eslint-config-airbnb@^15.1.0:
   dependencies:
     eslint-config-airbnb-base "^11.3.0"
 
-eslint-formatter-list@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/eslint-formatter-list/-/eslint-formatter-list-1.0.0.tgz#0a07635a32f98acb3cfdbaf1ffcb9d4e83637f9e"
-
 eslint-formatter-pretty@^1.3.0:
   version "1.3.0"
   resolved "https://registry.yarnpkg.com/eslint-formatter-pretty/-/eslint-formatter-pretty-1.3.0.tgz#985d9e41c1f8475f4a090c5dbd2dfcf2821d607e"
@@ -430,9 +438,9 @@ eslint-scope@^3.7.1:
     esrecurse "^4.1.0"
     estraverse "^4.1.1"
 
-eslint@^4.6.1:
-  version "4.7.1"
-  resolved "https://registry.yarnpkg.com/eslint/-/eslint-4.7.1.tgz#849804136953ebe366782f9f8611e2cbd1b54681"
+eslint@^4.7.2:
+  version "4.7.2"
+  resolved "https://registry.yarnpkg.com/eslint/-/eslint-4.7.2.tgz#ff6f5f5193848a27ee9b627be3e73fb9cb5e662e"
   dependencies:
     ajv "^5.2.0"
     babel-code-frame "^6.22.0"
