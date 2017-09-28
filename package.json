@@ -24,12 +24,14 @@
   ],
   "devDependencies": {
     "@invisible/eslint-config": "^1.0.0",
+    "@invisible/publish": "^1.1.1",
     "eslint": "^4.7.2"
   },
   "repository": "git@github.com:invisible-tech/slack-browser-api.git",
   "scripts": {
     "lint": "eslint --cache -f node_modules/eslint-formatter-pretty --ignore-path .gitignore .",
-    "test": "npm run lint"
+    "test": "npm run lint",
+    "posttest": "assert-version-bump"
   },
   "dependencies": {}
 }
