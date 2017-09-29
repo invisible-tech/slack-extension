@@ -24,7 +24,7 @@
   ],
   "devDependencies": {
     "@invisible/eslint-config": "^1.0.0",
-    "@invisible/publish": "^1.1.1",
+    "@invisible/publish": "^1.1.6",
     "eslint": "^4.7.2",
     "nsp": "^2.8.1"
   },
