@@ -1,6 +1,6 @@
 # slack-extension
 
-[![CircleCI](https://circleci.com/gh/invisible-tech/slack-browser-api.svg?style=svg&circle-token=801d07e77510c9241fa8c5dbcef2838af6b94443)](https://circleci.com/gh/invisible-tech/slack-browser-api)
+[![CircleCI](https://circleci.com/gh/invisible-tech/slack-browser-api/tree/master.svg?style=svg)](https://circleci.com/gh/invisible-tech/slack-browser-api/tree/master)
 
 Access Slack API from the Browser -- useful for creating Browser Extensions.
 
