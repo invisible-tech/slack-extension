@@ -1,7 +1,7 @@
 {
   "name": "@invisible/slack-browser-api",
   "license": "MIT",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Access Slack API from the Browser -- Useful for creating Browser Extensions.",
   "engines": {
     "node": "^8.5.0"
@@ -23,7 +23,7 @@
     "api"
   ],
   "devDependencies": {
-    "@invisible/eslint-config": "^1.0.0",
+    "@invisible/eslint-config": "^1.1.2",
     "@invisible/publish": "^1.1.6",
     "eslint": "^4.7.2",
     "nsp": "^2.8.1"
